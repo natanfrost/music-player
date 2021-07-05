@@ -1,0 +1,29 @@
+.cover-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 15px;
+    height: 200px;
+}
+
+.cover-item {    
+    flex: 50%;    
+    background-color: rgb(49, 49, 48);
+    margin-bottom: 5px;    
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: 100%;
+    float: left;
+    object-fit: cover;            
+}
+
+span {    
+    color: ivory;    
+    font-size: 18px;    
+}
+
+.description {
+    
+}
