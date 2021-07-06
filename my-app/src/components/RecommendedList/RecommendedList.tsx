@@ -1,50 +1,38 @@
 import React from 'react';
 import './style.css';
 
-interface Cover {
+interface RecommendedList {
     coverPath: string;
     alt: string
 }
 
-function Cover(props:Cover) {    
+function Cover(props:RecommendedList) {    
 
   return (
     <div className="cover-container">
         <div className="cover-item"> 
             <img src={props.coverPath} alt={props.alt} />       
-            <div className="description">
-                <span>Musicas curtidas</span>
-            </div>             
+            <span>Musicas Curtidas</span>
         </div>
         <div className="cover-item"> 
             <img src={props.coverPath} alt={props.alt} />    
-            <div className="description">
-                <span>Rock Classics</span>
-            </div>     
+            <span>Rock Classics</span>
         </div>
         <div className="cover-item"> 
             <img src={props.coverPath} alt={props.alt} />        
-            <div className="description">
-                <span>Daily Mix 1</span>
-            </div> 
+            <span>Daily Mix 1</span>            
         </div>
         <div className="cover-item"> 
             <img src={props.coverPath} alt={props.alt} />        
-            <div className="description">
-                <span>60s Rock Anthems</span>
-            </div> 
+            <span>60s Rock Anthems</span>
         </div>
         <div className="cover-item"> 
             <img src={props.coverPath} alt={props.alt} />        
-            <div className="description">
-                <span>Descobertas da Semana</span>
-            </div> 
+            <span>Descobertas</span>
         </div>
         <div className="cover-item"> 
             <img src={props.coverPath} alt={props.alt} />     
-            <div className="description">
-                <span>Explore</span>
-            </div>    
+            <span>Explore</span>
         </div>
 
     </div>
