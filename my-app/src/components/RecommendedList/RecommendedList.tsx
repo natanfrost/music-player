@@ -9,7 +9,7 @@ interface RecommendedList {
 function Cover(props:RecommendedList) {    
 
   return (
-    <div className="cover-container">
+    <div className="cover-container">        
         <div className="cover-item"> 
             <img src={props.coverPath} alt={props.alt} />       
             <span>Musicas Curtidas</span>
