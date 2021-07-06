@@ -10,5 +10,4 @@ body {
   background: -webkit-linear-gradient(-45deg,  #3722aa 0%,#010002 23%,#010002 23%,#050203 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg,  #3722aa 0%,#010002 23%,#010002 23%,#050203 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3722aa', endColorstr='#050203',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  overflow: hidden;
 }
