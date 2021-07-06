@@ -1,0 +1,15 @@
+.Caroulsel {
+    flex: 85%;
+    color: rgb(219, 219, 219);
+    padding-left: 10px;
+    font-family: -webkit-pictograph;
+}
+
+.Caroulsel img {
+    width: 150px;
+    height: 150px;
+}
+
+.row {
+    display: inline-flex;
+}
