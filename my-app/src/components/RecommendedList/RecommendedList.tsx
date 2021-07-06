@@ -26,7 +26,7 @@ function Cover(props:RecommendedList) {
         </div>
         <div className="cover-item"> 
             <img src="../assets/img/sp.png" alt={props.alt} />        
-            <span>60s Rock Anthems</span>
+            <span>60s Rock</span>
         </div>
         <div className="cover-item"> 
             <img src="../assets/img/racionais.jpg" alt={props.alt} />        

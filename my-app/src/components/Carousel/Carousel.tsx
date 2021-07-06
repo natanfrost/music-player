@@ -1,10 +1,16 @@
 import React from 'react';
 import './style.css';
 
-export default function Carousel() {
+interface Carousel {
+    title: string
+}
+
+//TODO #3 implement functionality - click/hold to slide carousel item @natanfrost
+
+export default function Carousel(props:Carousel) {
     return(
         <div className="Caroulsel">
-            <h2>New episodes</h2>
+            <h2>{props.title}</h2>
             <div className="row">
                 <img className="carousel" src="img_snowtops.jpg"/>
                 <img className="carousel" src="img_lights.jpg"/>
