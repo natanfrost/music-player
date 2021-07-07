@@ -1,5 +1,11 @@
 import React from 'react';
 import './style.css';
+import a7x from '../../img/a7x.jpg';
+import img2 from '../../img/soundgarden.jpg';
+import img3 from '../../img/sp.png';
+import img4 from '../../img/racionais.jpg';
+import img5 from '../../img/blink.jpg';
+import img6 from '../../img/rhcp.jpg';
 
 //TODO #2 need to add a space between cover-items for better view @natanfrost
 
@@ -13,27 +19,27 @@ function Cover(props:RecommendedList) {
   return (
     <div className="cover-container">        
         <div className="cover-item"> 
-            <img src={props.coverPath} alt={props.alt} />       
+            <img src={img6} alt={props.alt} />       
             <span>Musicas</span>
         </div>
         <div className="cover-item"> 
-            <img src="../assets/img/a7x.jpg" alt={props.alt} />    
+            <img src={a7x} alt={props.alt} />    
             <span>Rock Classics</span>
         </div>
         <div className="cover-item"> 
-            <img src="../assets/img/soundgarden.jpg" alt={props.alt} />        
+            <img src={img2} alt={props.alt} />        
             <span>Daily Mix 1</span>            
         </div>
         <div className="cover-item"> 
-            <img src="../assets/img/sp.png" alt={props.alt} />        
+            <img src={img3} alt={props.alt} />        
             <span>60s Rock</span>
         </div>
         <div className="cover-item"> 
-            <img src="../assets/img/racionais.jpg" alt={props.alt} />        
+            <img src={img4} alt={props.alt} />        
             <span>Descobertas</span>
         </div>
         <div className="cover-item"> 
-            <img src="../assets/img/blink.jpg" alt={props.alt} />     
+            <img src={img5} alt={props.alt} />     
             <span>Explore</span>
         </div>
 

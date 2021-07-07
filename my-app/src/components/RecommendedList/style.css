@@ -6,12 +6,13 @@
 
 .cover-container img {
     width: 8vh;
-    object-fit: cover;              
+    object-fit: cover;
     vertical-align: middle;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     animation: animate-cover-art 2s;
 }
+
 .cover-container span {
     vertical-align: middle;
     color: cornsilk;
@@ -21,32 +22,47 @@
     font-family: -webkit-pictograph;
 }
 
-.cover-item {    
-    flex: 50%;
+.cover-item {
+    flex: 47%;
     background-color: rgb(49, 49, 48);
     margin-bottom: 10px;
     border-radius: 5px;
     height: 8vh;
+    margin: 5px;
 }
 
 @keyframes animate-cover-art {
     from {
-            /* Add starting values for animation */
-            transform: translateX(-50px);
-            opacity: 0;
+        /* Add starting values for animation */
+        transform: translateX(-50px);
+        opacity: 0;
     }
 
     to {
-            /* Add Ending values for animation */
-            transform: translateX(0);
-            opacity: 1;
+        /* Add Ending values for animation */
+        transform: translateX(0);
+        opacity: 1;
     }
 }
 
 @keyframes animate-title {
-    0%   { opacity: 0; }
-    25%  { opacity: 0.25; }
-    50%  { opacity: 0.50; }
-    75%  { opacity: 0.75; }
-    100% { opacity: 1; }
-  }
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.50;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
