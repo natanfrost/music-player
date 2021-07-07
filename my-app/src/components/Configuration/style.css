@@ -1,0 +1,146 @@
+.Configuration .header {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    height: 50px;
+    text-align: center;
+}
+
+.Configuration h2,
+h3,
+h4,
+h5,
+span {
+    color: white;
+}
+
+.Configuration .container {
+    margin-left: 10%;
+    margin-top: 10%;
+    display: block;
+}
+
+
+.Configuration .premium {
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.Configuration .premium button {
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.Configuration .profile img {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 45px;
+    margin-right: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-detail {
+    line-height: 5px;
+}
+
+.profile-detail h2 {
+    margin-top: 0;
+}
+
+.profile svg {
+    height: 15px;
+}
+
+.profile-icon {
+    width: 130px;
+    text-align: right;
+}
+
+.toggle {
+    display: flex;
+}
+
+.toggle div:first-child {
+    flex: 80%;
+}
+
+.toggle div:nth-child(2) {
+    flex: 15%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    vertical-align: middle;
+    
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    top: -4px;
+}
+
+input:checked+.slider {
+    background-color: #056d24b6;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #01a031;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+    background-color: #01a031;
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

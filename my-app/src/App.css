@@ -11,3 +11,18 @@ body {
   background: linear-gradient(135deg,  #3722aa 0%,#010002 23%,#010002 23%,#050203 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3722aa', endColorstr='#050203',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
+
+svg {
+    height: 25px;
+    flex: 15%;
+    color: white;
+    stroke-width: 0.3px;
+}
+
+* {
+  font-family: -webkit-pictograph;
+}
+
+.App {
+  margin-top: 60px;
+}
