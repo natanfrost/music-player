@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/music-player/static/css/main.6c4844c6.chunk.css",
-    "main.js": "/music-player/static/js/main.8efad50a.chunk.js",
-    "main.js.map": "/music-player/static/js/main.8efad50a.chunk.js.map",
+    "main.css": "/music-player/static/css/main.4dda09cd.chunk.css",
+    "main.js": "/music-player/static/js/main.09e7a9e4.chunk.js",
+    "main.js.map": "/music-player/static/js/main.09e7a9e4.chunk.js.map",
     "runtime-main.js": "/music-player/static/js/runtime-main.55375cc4.js",
     "runtime-main.js.map": "/music-player/static/js/runtime-main.55375cc4.js.map",
     "static/js/2.688097aa.chunk.js": "/music-player/static/js/2.688097aa.chunk.js",
     "static/js/2.688097aa.chunk.js.map": "/music-player/static/js/2.688097aa.chunk.js.map",
     "index.html": "/music-player/index.html",
-    "static/css/main.6c4844c6.chunk.css.map": "/music-player/static/css/main.6c4844c6.chunk.css.map",
-    "static/js/2.688097aa.chunk.js.LICENSE.txt": "/music-player/static/js/2.688097aa.chunk.js.LICENSE.txt"
+    "static/css/main.4dda09cd.chunk.css.map": "/music-player/static/css/main.4dda09cd.chunk.css.map",
+    "static/js/2.688097aa.chunk.js.LICENSE.txt": "/music-player/static/js/2.688097aa.chunk.js.LICENSE.txt",
+    "static/media/a7x.a9b8975d.jpg": "/music-player/static/media/a7x.a9b8975d.jpg",
+    "static/media/blink.46188341.jpg": "/music-player/static/media/blink.46188341.jpg",
+    "static/media/racionais.572ddf31.jpg": "/music-player/static/media/racionais.572ddf31.jpg",
+    "static/media/rhcp.a0b16270.jpg": "/music-player/static/media/rhcp.a0b16270.jpg",
+    "static/media/soundgarden.8b4a4313.jpg": "/music-player/static/media/soundgarden.8b4a4313.jpg",
+    "static/media/sp.05904760.png": "/music-player/static/media/sp.05904760.png"
   },
   "entrypoints": [
     "static/js/runtime-main.55375cc4.js",
     "static/js/2.688097aa.chunk.js",
-    "static/css/main.6c4844c6.chunk.css",
-    "static/js/main.8efad50a.chunk.js"
+    "static/css/main.4dda09cd.chunk.css",
+    "static/js/main.09e7a9e4.chunk.js"
   ]
 }
