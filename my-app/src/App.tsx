@@ -10,20 +10,15 @@ import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Switch>          
+    <Router>
+      <div className="App">
+        <Switch>
           <Route path="/configuration" component={Configuration} />
           <Route path="/" component={Home} />
         </Switch>
-      </Router>
-      {/* <Head />
-      <RecommendedList coverPath="../assets/img/rhcp.jpg" alt="Red Hot Chili Peppers - By The Way" />
-      <Carousel title="New episodes" />
-      <Carousel title="For you!" /> */}
-       {/* <Configuration />   */}
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
