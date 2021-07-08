@@ -12,9 +12,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3722aa', endColorstr='#050203',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-svg {
-    height: 25px;
-    flex: 15%;
+svg {        
     color: white;
     stroke-width: 0.3px;
 }

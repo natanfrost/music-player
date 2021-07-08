@@ -7,9 +7,12 @@
     height: 50px;
     margin-bottom: 0px;
     display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .svg-footer {
-    margin-top: 7px;
-    height: 35px;
+    margin-top: 7px;        
+    vertical-align: middle;
 }
