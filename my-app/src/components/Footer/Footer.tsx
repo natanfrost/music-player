@@ -1,4 +1,4 @@
-import React, { LinkHTMLAttributes } from 'react';
+import React from 'react';
 import './style.css';
 import { MdHome } from 'react-icons/md/'
 import { FiSearch } from 'react-icons/fi/'

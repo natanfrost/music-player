@@ -1,12 +1,10 @@
 import React from 'react';
-import RecommendedList from './components/RecommendedList/RecommendedList';
 import './App.css';
-import Head from './components/Head/Head';
-import Carousel from './components/Carousel/Carousel';
 import Footer from './components/Footer/Footer';
 import Configuration from './components/Configuration/Configuration';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './components/Home/Home';
+import Search from './components/Search/Search';
 
 function App() {
   return (
@@ -14,6 +12,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/configuration" component={Configuration} />
+          <Route path="/search" component={Search} />
           <Route path="/" component={Home} />
         </Switch>
         <Footer />
