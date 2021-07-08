@@ -10,16 +10,11 @@ import Configuration from '../Configuration/Configuration';
 
 export default function Footer() {
     return (
-        <div className="Footer">
-
-
+        <footer className="Footer">
             <MdHome className="svg"/>
-
-
             <FiSearch className="svg" />
             <VscLibrary className="svg" />
             <FaSpotify className="svg" />
-
-        </div>
+        </footer>
     )
 }
