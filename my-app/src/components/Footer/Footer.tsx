@@ -17,7 +17,9 @@ export default function Footer() {
                     </NavLink>
                 </div>
                 <div>
-                    <FiSearch />
+                    <NavLink to="/search" >
+                        <FiSearch />
+                    </NavLink>
                 </div>
                 <div>
                     <VscLibrary />
