@@ -34,7 +34,7 @@ function App() {
               <Switch>
                 <Route path="/configuration" component={Configuration} />
                 <Route path="/search" component={Search} />
-                <Route path="/" component={Home} />
+                <Route path="/music-player" component={Home} />
               </Switch>
               <Footer />
             </div>

@@ -12,7 +12,7 @@ export default function Footer() {
         <footer className="Footer">
             <IconContext.Provider value={{ size: '35px', style: { marginTop: '10px' } }}>
                 <div>
-                    <NavLink to="/" >
+                    <NavLink to="/music-player" >
                         <MdHome />
                     </NavLink>
                 </div>
