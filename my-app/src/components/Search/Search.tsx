@@ -33,7 +33,7 @@ export default function Search() {
                 <GenreCard description="Shows" imgPath="" color="#353030" />
             </div>
             <div className="genre-container">
-                <GenreCard description="Funk" imgPath="" color="75750a" />
+                <GenreCard description="Funk" imgPath="" color="#75750a" />
                 <GenreCard description="Brasil" imgPath="" color="#064418" />
             </div>
             <div className="genre-container">

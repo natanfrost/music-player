@@ -1,0 +1,47 @@
+.playlist-img {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.Playlist .top {
+    display: flex;
+    justify-content: center;
+}
+
+.Playlist .back-to {
+    position: absolute;
+}
+.Playlist {
+    margin: 20px;    
+}
+
+.Playlist span {
+    font-size: 0.8em;
+    color: white;
+}
+
+.Playlist .playlist-description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Playlist .playlist-details {
+    display: flex;
+}
+
+.Playlist .playlist-spotify {
+    margin-top: 2px;
+}
+
+.Playlist .row {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Playlist .play-btn svg {
+    position: absolute;
+    left: 80%;
+    top: 310px
+}
