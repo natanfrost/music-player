@@ -22,7 +22,6 @@ export default function Configuration() {
                     <div className="profile-img">
                         <img src={profile} alt="" />
                     </div>
-
                     <div className="profile-detail">
                         <h3>Your Name</h3>
                         <span>See profile</span>
