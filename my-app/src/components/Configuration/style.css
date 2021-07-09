@@ -50,7 +50,7 @@ span {
     width: 50px;
     background-color: white;
     border-radius: 45px;
-    margin-right: 20px;
+    margin-right: 20px;    
 }
 
 .profile {
@@ -60,10 +60,8 @@ span {
 
 .profile-detail {
     line-height: 5px;
-}
-
-.profile-detail h2 {
-    margin-top: 0;
+    flex: 80%;
+    margin-bottom: 25px;
 }
 
 .profile svg {
