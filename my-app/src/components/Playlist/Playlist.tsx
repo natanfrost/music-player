@@ -12,7 +12,7 @@ export default function Playlist() {
     const history = useHistory();
 
     function handleBackTo() {
-        history.push('/music-player')
+        history.goBack();
     }
 
     return (

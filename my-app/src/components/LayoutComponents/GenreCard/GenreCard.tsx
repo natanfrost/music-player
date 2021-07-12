@@ -1,4 +1,5 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import './style.css';
 
 interface GenreCardDetails {
@@ -8,8 +9,15 @@ interface GenreCardDetails {
 }
 
 export default function GenreCard(props: GenreCardDetails) {
+
+    const history = useHistory();
+
+    function handleGenreClick() {
+        history.push('/playlist');        
+    }
+
     return (
-        <div className="GenreCard" style={{backgroundColor: props.color}}>
+        <div onClick={() => handleGenreClick()} className="GenreCard" style={{backgroundColor: props.color}}>
             <div className="description">
                 <span>
                     {props.description}
