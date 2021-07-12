@@ -11,13 +11,13 @@ import Song from '../LayoutComponents/Song/Song';
 export default function Playlist() {
     const history = useHistory();
 
-    function handleClick() {
+    function handleBackTo() {
         history.push('/music-player')
     }
 
     return (
         <div className="Playlist">
-            <div onClick={() => handleClick()} className="back-to">
+            <div onClick={() => handleBackTo()} className="back-to">
                 <IconContext.Provider value={{ size: '30px', style: { color: 'white' } }}>
                     <BsArrowLeftShort />
                 </IconContext.Provider>

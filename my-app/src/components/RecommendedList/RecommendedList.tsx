@@ -7,9 +7,6 @@ import img4 from '../../img/racionais.jpg';
 import img5 from '../../img/blink.jpg';
 import img6 from '../../img/rhcp.jpg';
 import { useHistory } from 'react-router';
-
-//TODO #2 need to add a space between cover-items for better view @natanfrost
-
 interface RecommendedList {
     coverPath: string;
     alt: string

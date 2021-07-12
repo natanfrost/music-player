@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Search from './components/Search/Search';
 import SplashLoad from './components/SplashLoad/SplashLoad';
 import Playlist from './components/Playlist/Playlist';
+import Player from './components/Player/Player';
 
 function App() {
 
@@ -35,9 +36,9 @@ function App() {
               <Switch>
                 <Route path="/configuration" component={Configuration} />
                 <Route path="/search" component={Search} />
-                <Route path="/music-player" component={Home} />
-                <Route path="/music-player" component={Home} />
+                <Route path="/music-player" component={Home} />                
                 <Route path="/playlist" component={Playlist} />
+                <Route path="/player" component={Player} />
               </Switch>
               <Footer />
             </div>

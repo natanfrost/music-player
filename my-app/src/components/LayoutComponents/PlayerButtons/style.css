@@ -1,0 +1,33 @@
+.PlayerButtons {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.PlayerButtons .seekbar input {
+    margin: 0;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.PlayerButtons .seekbar input[type=range]::-webkit-slider-thumb  {  
+
+  width: 15px;
+  border-radius: 20px;
+  
+  
+}
+
+
+.PlayerButtons .seekbar .song-timers {
+    font-size: 0.7em;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PlayerButtons .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;    
+}

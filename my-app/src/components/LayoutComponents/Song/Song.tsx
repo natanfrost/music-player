@@ -2,6 +2,7 @@ import React from "react";
 import { FaHeart } from "react-icons/fa";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import { IconContext } from "react-icons/lib";
+import { useHistory } from 'react-router';
 import './style.css';
 
 interface SongDetail {
@@ -12,8 +13,14 @@ interface SongDetail {
 }
 
 export default function Song(props: SongDetail) {
+    const history = useHistory();
+
+    function handleGoToPlayer() {
+        history.push('/player');
+    }
+
     return (
-        <div className="Song">
+        <div className="Song" onClick={() => handleGoToPlayer()}>
             <div className="cover-art" style={{backgroundColor: props.coverARt }}>
                 <img src="" alt="" />
             </div>
