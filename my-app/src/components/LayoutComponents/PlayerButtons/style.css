@@ -8,16 +8,6 @@
     opacity: 0.5;
     width: 100%;
 }
-
-.PlayerButtons .seekbar input[type=range]::-webkit-slider-thumb  {  
-
-  width: 15px;
-  border-radius: 20px;
-  
-  
-}
-
-
 .PlayerButtons .seekbar .song-timers {
     font-size: 0.7em;
     margin-top: 5px;
