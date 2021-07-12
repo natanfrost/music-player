@@ -1,0 +1,20 @@
+.Song {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.Song .cover-art {
+    
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.Song .artist-info {
+    flex: 70%;
+}
+
+.Song .hide {
+    display: none;    
+}
