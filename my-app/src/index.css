@@ -1,0 +1,9 @@
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    #root {
+      width: 100%;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }

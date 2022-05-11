@@ -1,4 +1,5 @@
 .Configuration {
+    
 }
 
 
@@ -147,10 +148,9 @@ input:checked+.slider:before {
     border-radius: 50%;
 }
 
-
-@media only screen and (min-width: 960px) {
-    .Configuration .container {
-        width: 60%;
-        margin: 0 auto;        
+@media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
+    .Configuration .header {
+        position: relative;
     }
-}
+  }
