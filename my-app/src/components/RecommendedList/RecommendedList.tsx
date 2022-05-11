@@ -13,7 +13,7 @@ interface RecommendedList {
 }
 
 function Cover(props: RecommendedList) {
-    
+
     const history = useHistory();
 
     function handleClick() {
