@@ -16,7 +16,7 @@ function App() {
   function handleLoadingChange(loading: boolean) {
     setTimeout(() => {
       setIsLoading(loading);
-    }, 6000);
+    }, 3000);
   }
 
   useEffect(() => {
