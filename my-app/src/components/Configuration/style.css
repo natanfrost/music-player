@@ -153,4 +153,8 @@ input:checked+.slider:before {
     .Configuration .header {
         position: relative;
     }
+    .Configuration .container {
+        width: 40%;
+        margin: 0 auto;
+    }
   }
