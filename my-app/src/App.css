@@ -24,3 +24,10 @@ span {
 h2 {
   font-family: monospace;
 }
+@media (min-width:1281px) { 
+  /* hi-res laptops and desktops */ 
+  body {
+    display: flex;
+    justify-content: center;
+  }
+}
