@@ -36,7 +36,7 @@ export default function Configuration() {
                 <h5>E-mail</h5>
                 <span>email@email.com</span>
                 <h5>Data economy</h5>
-                <h5>Audio Quality</h5>
+                <h5>Audio quality</h5>
                 <div className="toggle">
                     <div>
                         <span>Sets your audio quality to low</span>
