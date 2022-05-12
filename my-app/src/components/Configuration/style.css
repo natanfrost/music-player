@@ -151,7 +151,7 @@ input:checked+.slider:before {
 @media (min-width:1281px) { 
     /* hi-res laptops and desktops */ 
     .Configuration .header {
-        position: relative;
+        right: 0;
     }
     .Configuration .container {
         width: 40%;
