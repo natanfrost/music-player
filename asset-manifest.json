@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/music-player/static/css/main.f279e7ba.chunk.css",
-    "main.js": "/music-player/static/js/main.49254f39.chunk.js",
-    "main.js.map": "/music-player/static/js/main.49254f39.chunk.js.map",
+    "main.js": "/music-player/static/js/main.e16574b6.chunk.js",
+    "main.js.map": "/music-player/static/js/main.e16574b6.chunk.js.map",
     "runtime-main.js": "/music-player/static/js/runtime-main.55375cc4.js",
     "runtime-main.js.map": "/music-player/static/js/runtime-main.55375cc4.js.map",
-    "static/js/2.210428a0.chunk.js": "/music-player/static/js/2.210428a0.chunk.js",
-    "static/js/2.210428a0.chunk.js.map": "/music-player/static/js/2.210428a0.chunk.js.map",
+    "static/js/2.0f72227a.chunk.js": "/music-player/static/js/2.0f72227a.chunk.js",
+    "static/js/2.0f72227a.chunk.js.map": "/music-player/static/js/2.0f72227a.chunk.js.map",
     "index.html": "/music-player/index.html",
     "static/css/main.f279e7ba.chunk.css.map": "/music-player/static/css/main.f279e7ba.chunk.css.map",
-    "static/js/2.210428a0.chunk.js.LICENSE.txt": "/music-player/static/js/2.210428a0.chunk.js.LICENSE.txt",
-    "static/media/a7x.a9b8975d.jpg": "/music-player/static/media/a7x.a9b8975d.jpg",
-    "static/media/blink.46188341.jpg": "/music-player/static/media/blink.46188341.jpg",
-    "static/media/podcast_2.9a1c8540.webp": "/music-player/static/media/podcast_2.9a1c8540.webp",
-    "static/media/podcast_3.698ca352.jpg": "/music-player/static/media/podcast_3.698ca352.jpg",
-    "static/media/podcast_5.d81507fc.jpg": "/music-player/static/media/podcast_5.d81507fc.jpg",
-    "static/media/podcast_6.00a6ed99.jpg": "/music-player/static/media/podcast_6.00a6ed99.jpg",
-    "static/media/profile.c8aff4cc.gif": "/music-player/static/media/profile.c8aff4cc.gif",
-    "static/media/racionais.572ddf31.jpg": "/music-player/static/media/racionais.572ddf31.jpg",
-    "static/media/rhcp.a0b16270.jpg": "/music-player/static/media/rhcp.a0b16270.jpg",
-    "static/media/soundgarden.8b4a4313.jpg": "/music-player/static/media/soundgarden.8b4a4313.jpg",
-    "static/media/sp.05904760.png": "/music-player/static/media/sp.05904760.png"
+    "static/js/2.0f72227a.chunk.js.LICENSE.txt": "/music-player/static/js/2.0f72227a.chunk.js.LICENSE.txt",
+    "static/media/a7x.jpg": "/music-player/static/media/a7x.a9b8975d.jpg",
+    "static/media/blink.jpg": "/music-player/static/media/blink.46188341.jpg",
+    "static/media/podcast_2.webp": "/music-player/static/media/podcast_2.9a1c8540.webp",
+    "static/media/podcast_3.jpg": "/music-player/static/media/podcast_3.698ca352.jpg",
+    "static/media/podcast_5.jpg": "/music-player/static/media/podcast_5.d81507fc.jpg",
+    "static/media/podcast_6.jpg": "/music-player/static/media/podcast_6.00a6ed99.jpg",
+    "static/media/profile.gif": "/music-player/static/media/profile.c8aff4cc.gif",
+    "static/media/racionais.jpg": "/music-player/static/media/racionais.572ddf31.jpg",
+    "static/media/rhcp.jpg": "/music-player/static/media/rhcp.a0b16270.jpg",
+    "static/media/soundgarden.jpg": "/music-player/static/media/soundgarden.8b4a4313.jpg",
+    "static/media/sp.png": "/music-player/static/media/sp.05904760.png"
   },
   "entrypoints": [
     "static/js/runtime-main.55375cc4.js",
-    "static/js/2.210428a0.chunk.js",
+    "static/js/2.0f72227a.chunk.js",
     "static/css/main.f279e7ba.chunk.css",
-    "static/js/main.49254f39.chunk.js"
+    "static/js/main.e16574b6.chunk.js"
   ]
 }
